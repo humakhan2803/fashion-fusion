@@ -1,0 +1,423 @@
+html
+{
+  overflow-x: hidden;
+}
+
+section {
+  padding: 40px 0;
+}
+
+/*Header*/
+
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+}
+.logo {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*navbar*/
+
+.navbar {
+  background-color: #114084;
+  height: 55px;
+  justify-content: center;
+}
+.navbar-collapse {
+  background-color: #114084;
+  padding: 0 24px;
+}
+
+.nav-link {
+  margin: 0 20px;
+}
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
+  color: #fff !important;
+}
+
+.nav-link.show {
+  color: #fff !important;
+}
+.navbar-toggler {
+  color: #fff;
+  margin-bottom: 4px;
+  border: 1px solid #fff;
+}
+.toggler-icon {
+  color: #fff !important;
+  padding: 4px;
+  font-size: 24px;
+}
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  /* box-shadow: 0 0 0 0.12rem; */
+}
+.navbar-collapse a {
+  color: #fff;
+}
+.navbar-nav .nav-item .dropdown-menu {
+  background-color: #114084 !important;
+  color: white !important;
+}
+
+/*banner*/
+.mainbanner {
+  height: 492px;
+  background-image: url("Assets/pictures/Fashion\ Fusion\ Banner.png");
+  background-size: cover;
+  padding-top: 1px;
+}
+
+.banner {
+  margin-top: 130px;
+  margin-left: 100px;
+  width: 430px;
+}
+
+.banner > h1 {
+  margin-top: -10px;
+}
+
+.banner h1 {
+  font-size: 20px;
+  color: #1c1c1c;
+}
+
+.banner p {
+  color: rgb(118, 118, 118);
+}
+
+.mainbanner button {
+  height: 50px;
+  width: 250px;
+  background-color: #82b7dc;
+  border: 0cap;
+  border-radius: 5px;
+}
+
+.mainbanner button:hover {
+  background-color: #3466aa;
+}
+
+/*Customer-Service*/
+
+.service1 {
+  display: flex;
+  margin-top: 30px;
+}
+
+/*Collections*/
+
+.collection-section .row > * {
+  padding: 0 !important;
+}
+/*Wedding Collection*/
+
+.wedding {
+  background-image: url("Assets/pictures/wedding\ collection\ banner\ 2.png");
+  background-size: cover;
+  height: 550px;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.wedding h1 {
+  padding-top: 40px;
+  padding-left: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.wedding p {
+  width: 200px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.wedding ul,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding-top: 8px;
+  margin-left: -5px;
+}
+
+/*Winter Collection*/
+.winter {
+  background-image: url("Assets/pictures/Winter\ collection\ banner.png");
+  background-size: cover;
+  height: 270px;
+  border-radius: 5px;
+}
+
+.winter h1 {
+  padding-top: 20px;
+  padding-left: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.winter p {
+  width: 190px;
+  padding-left: 15px;
+}
+
+/*Summer Collection*/
+.summer {
+  background-image: url("Assets/pictures/summer\ collection\ banner.png");
+  background-size: cover;
+  width: 100%;
+  height: 270px;
+  border-radius: 5px;
+}
+
+.summer h1 {
+  padding-top: 25px;
+  padding-left: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+
+.summer p {
+  width: 250px;
+  padding-left: 20px;
+  margin-top: 10px;
+  color: white;
+}
+
+/*Our Top Seller Products*/
+
+/* card */
+
+.card-img1
+{
+  width: 100%;
+  height: 400px;
+  border-radius: 7px 7px 0 0;
+  background-image: url("Assets/pictures/Traditionally\ Embroidered\ Beige\ Sherwani.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card-img1:hover
+{
+  background-image: url("Assets/pictures/Traditionally\ Embroidered\ Beige\ Sherwani\ 2.jpg");
+}
+
+.card-img2
+{
+  width: 100%;
+  height: 400px;
+  border-radius: 7px 7px 0 0;
+  background-image: url("Assets/pictures/Gulabo\ -\ Watermelon-Pink\ Peshwas\ with\ Azar\ Pants\ &\ Dupatta\ card\ 2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card-img2:hover
+{
+  background-image: url("Assets/pictures/Gulabo\ -\ Watermelon-Pink\ Peshwas\ with\ Azar\ Pants\ &\ Dupatta\ card\ 2\ pic\ 2.jpg");
+}
+
+.card-img3
+{
+  width: 100%;
+  height: 400px;
+  border-radius: 7px 7px 0 0;
+  background-image: url("Assets/pictures/Card 3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card-img3:hover
+{
+  background-image: url("Assets/pictures/Card\ 3\ pic\ 2.jpg");
+}
+
+.card-img4
+{
+  width: 100%;
+  height: 400px;
+  border-radius: 7px 7px 0 0;
+  background-image: url("Assets/pictures/BLACK\ &\ GOLD\ BLENDED\ SHERWANI\ -\ AL-SW-137\ Pic\ 1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card-img4:hover
+{
+  background-image: url("Assets/pictures/BLACK\ &\ GOLD\ BLENDED\ SHERWANI\ -\ AL-SW-137\ Pic\ 2.jpg");
+}
+
+
+
+.card-body {
+  padding: 1rem;
+  background: #fff;
+  border-radius: 0 0 7px 7px;
+}
+
+.card-title {
+  width: 260px;
+  margin-top: -10px;
+  margin-left: -13px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.price-crossed {
+  text-decoration: line-through;
+}
+
+.card-price {
+  margin-left: -13px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.card-description {
+  margin-bottom: 0.2rem;
+  font-size: 1rem;
+  margin-bottom: 0rem;
+}
+
+.card-button {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 9px;
+}
+.card-button a {
+  text-decoration: none;
+}
+
+.card-button-inner {
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.shopnow-button {
+  background: #82b7dc;
+  color: black;
+}
+
+.shopnow-button:hover {
+  background-color: #3466aa;
+  color: white;
+}
+
+.details-button {
+  border: 1px solid #3466aa;
+  color: #3466aa;
+}
+
+.details-button:hover {
+  background-color: #3466aa;
+  color: white;
+}
+
+/*Sale Banner*/
+.mainsalebanner {
+  height: 480px;
+  background-image: url("Assets/pictures/fashion\ fusion\ sale\ banner\ .png");
+  background-size: cover;
+}
+
+.salebanner {
+  margin-top: 100px;
+}
+
+.salebanner :nth-child(1) {
+  font-size: 20px;
+  color: #1c1c1c;
+}
+
+.salebanner :nth-child(3) {
+  color: rgb(118, 118, 118);
+}
+
+.mainsalebanner button {
+  height: 50px;
+  width: 250px;
+  background-color: #82b7dc;
+  border: 0cap;
+  border-radius: 5px;
+}
+
+.mainsalebanner button:hover {
+  background-color: #3466aa;
+}
+
+/*Sale Banner Ends*/
+
+.malesection {
+  height: max-content;
+  width: 100%;
+  background-image: url("Assets/pictures/mens\ collection\ banner.png");
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 10px 10px #82b7dc;
+}
+
+.malesection p {
+  margin-left: 30px;
+  margin-top: 30px;
+  font-weight: 450;
+  width: 300px;
+}
+
+.malesection h1 {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.femalesection {
+  height: max-content;
+  width: 100%;
+  background-image: url("Assets/pictures/womens\ collection\ banner\ 2.png");
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 10px 10px #ff9ce3;
+}
+
+.femalesection p {
+  margin-left: 30px;
+  margin-top: 30px;
+  font-weight: 450;
+  width: 250px;
+}
+
+.femalesection h1 {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.insta-pics img {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
